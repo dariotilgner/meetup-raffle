@@ -3,7 +3,9 @@
     "description": "Raffle script for meetup.com event",
     "type": "project",
     "require": {
-        "symfony/console": "^7.0"
+        "php": ">= 8.2",
+        "symfony/console": "^7.0",
+        "symfony/var-dumper": "^7.0"
     },
     "license": "MIT",
     "autoload": {
