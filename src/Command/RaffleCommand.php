@@ -35,7 +35,6 @@ class RaffleCommand extends Command
         $file = $input->getArgument('meetupAttendeesCsvFile');
 
         $winner = $this->raffleService->raffle($file) ?? 'No winner found :(';
-        $winner = 'Dario Tilgner';
         $winnersCount = $this->raffleService->getWinnersCount();
 
         $io->winnerBlock($winner, $winnersCount);
