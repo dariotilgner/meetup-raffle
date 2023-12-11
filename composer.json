@@ -1,0 +1,20 @@
+{
+    "name": "dariotilgner/meetup-raffle",
+    "description": "Raffle script for meetup.com event",
+    "type": "project",
+    "require": {
+        "symfony/console": "^7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dariotilgner\\MeetupRaffle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dario Tilgner",
+            "email": "dario.tilgner@gmail.com"
+        }
+    ]
+}
